@@ -4,3 +4,4 @@ K = int(input())
 
 for row in sorted(rows, key=lambda row: int(row.split()[K])):
     print(row)
+    
